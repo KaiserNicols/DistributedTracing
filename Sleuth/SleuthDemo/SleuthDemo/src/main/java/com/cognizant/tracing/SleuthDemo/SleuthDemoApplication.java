@@ -18,6 +18,7 @@ public class SleuthDemoApplication {
 
 	@Autowired
 	private RestTemplate restTemplate;
+
 	public static void main(String[] args) {
 		SpringApplication.run(SleuthDemoApplication.class, args);
 	}
